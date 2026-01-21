@@ -1,1 +1,25 @@
 /* В этом файле будут храниться все значения переменных в исходном состоянии, а так же их изменения в зависимости от ширины устройства */
+
+:root {
+  /* Шрифты */
+  --main-font: "Inter";
+  --accent-font: "PressStart2P";
+
+  /* Толщина шрифта (Inter) */
+  --font-weight-text: 410;
+  --font-weight-title: 715;
+
+  --background-image:
+    repeating-linear-gradient(90deg, #d3d3d3 0 2px, transparent 2px 4px),
+    repeating-linear-gradient(180deg, #d3d3d3 0 2px, transparent 2px 4px),
+    linear-gradient(180deg, #e7e7e7 0%, #e7e7e7 0.01%, #1a1a1a 100%);
+
+  --content-width: clamp(320px, 100%, 700px);
+  --Themes-background: #fff;
+  --label-stroke-color: var(--Themes-background);
+  --Themes-mainColor: #000;
+  --button-text-color: #fff;
+  --button-bg-hover: #000;
+  --contour-color: var(--Themes-mainColor, #000);
+  --animation-fill-color: #ff0000;
+}
