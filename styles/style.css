@@ -170,6 +170,7 @@
   position: relative;
   overflow: hidden;
   color: var(--button-text-color);
+  transition: box-shadow 0.3s ease;
 }
 .button::before {
   content: "";
@@ -311,9 +312,6 @@
 /* Фокус на кнопки*/
 .button:focus {
   outline: none;
-}
-.button {
-  transition: box-shadow 0.3s ease;
 }
 .button:focus-visible {
   box-shadow: 2px 2px 0 var(--Themes-mainColor, #000);
