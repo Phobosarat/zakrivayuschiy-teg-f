@@ -73,8 +73,8 @@
     opacity: 1;
   }
 }
-.like-icon.is-liked .heart {
-  animation: heart-scale 0.3s ease-in 0.1s 1 alternate;
+.like-icon.is-liked {
+  animation: heart-scale 0.3s ease-in 0.1s alternate;
 }
 .like-icon.is-liked .sparks {
   animation: sparks-appear 0.3s ease-in 0.3s 1;
